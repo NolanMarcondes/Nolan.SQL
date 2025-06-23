@@ -28,7 +28,7 @@ CREATE DATABASE LOJAMARIA3030024;
 
 
 -- Habilita o contexto do banco de dados
-USE LOJAMARIA;
+USE LOJAMARIA3030024;
 -- GO
 
 
@@ -243,7 +243,7 @@ SELECT
 FROM 
     information_schema.tables
 WHERE 
-    table_schema = 'lojamaria';
+    table_schema = 'lojamaria3030024';
 
 
 -- 2. Liste o código, nome, endereço, cidade e estado dos clientes. Exiba as 
